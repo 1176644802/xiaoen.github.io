@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Xiaoen学习日记</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-10-30T14:02:44.718Z</updated>
+  <updated>2024-10-30T14:15:19.285Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2024/10/30/github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2024/10/30/github搭建个人博客/</id>
+    <published>2024-10-30T14:11:10.017Z</published>
+    <updated>2024-10-30T14:15:19.285Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="使用Github搭建个人博客"><a href="#使用Github搭建个人博客" class="headerlink" title="使用Github搭建个人博客"></a>使用Github搭建个人博客</h1><h2 id="1-安装git"><a href="#1-安装git" class="headerlink" title="1.安装git"></a>1.安装git</h2><p>安装git bash并完成初始化用户信息操作，配置github仓库的ssh秘钥</p><h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><p>需要先安装npm，直接使用npm命令安装hexo即可</p><h2 id="3-hexo配置远程github仓库"><a href="#3-hexo配置远程github仓库" class="headerlink" title="3.hexo配置远程github仓库"></a>3.hexo配置远程github仓库</h2><p>修改_config.yml文件</p><h2 id="4-hexo常用命令"><a href="#4-hexo常用命令" class="headerlink" title="4.hexo常用命令"></a>4.hexo常用命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">-- 根据当前source目录下的文件生成对应的html和css文件</span><br><span class="line">hexo generate</span><br><span class="line"></span><br><span class="line">-- 远程github同步当前目录下的文件状态，用于更新远程github的代码</span><br><span class="line">hexo depoly</span><br><span class="line"></span><br><span class="line">-- 启动本地hexo</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>test</title>
